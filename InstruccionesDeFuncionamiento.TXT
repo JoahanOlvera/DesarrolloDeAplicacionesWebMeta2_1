@@ -1,0 +1,8 @@
+1. Una vez abierto el proyecto con la terminal en donde esta el proyecto, ingresar la instruccion:
+npm install vite-plugin-vue-layouts
+
+2. En el archivo vite.config.mjs, incluir en los imports de la parte superior la instruccion:
+import layouts from 'vite-plugin-vue-layouts'
+
+3. Luego, en la seccion export default defineConfig, incluir dentro del arreglo plugins la instruccion:
+layouts(),
