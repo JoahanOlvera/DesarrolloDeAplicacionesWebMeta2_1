@@ -15,6 +15,7 @@
                 <v-list-item prepend-icon="mdi-home" link to="/" title="Inicio" value="Inicio"></v-list-item>
                 <v-list-item prepend-icon="mdi-image-multiple" link to="/ImagenesYChistes" title="Imagenes y Chistes" value="myfiles"></v-list-item>
                 <v-list-item prepend-icon="mdi-text-box-outline" link to="/Tabla" title="Tabla de datos" value="myfles"></v-list-item>
+                <v-list-item prepend-icon="mdi-text-box-outline" link to="/TablaCRUD" title="Tabla de datos CRUD" value="myfiles"Z></v-list-item>
               </v-list>
           </v-navigation-drawer>
 
